@@ -3,6 +3,7 @@
 # Space: O(n)
 # One liner: the max frequency is the total count of nums, use an array with frequency as the index
 
+
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         count = {}
@@ -11,7 +12,7 @@ class Solution:
 
         for num in nums:
             count[num] = 1 + count.get(num, 0)
-        
+
         for n, c in count.items():
             frequency[c].append(n)
 
