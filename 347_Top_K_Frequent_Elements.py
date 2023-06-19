@@ -1,4 +1,7 @@
 # https://leetcode.com/problems/top-k-frequent-elements/description/
+# Time: O(n)
+# Space: O(n)
+# One liner: the max frequency is the total count of nums, use an array with frequency as the index
 
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
