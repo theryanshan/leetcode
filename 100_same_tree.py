@@ -7,3 +7,6 @@ class Solution:
         left = self.isSameTree(p.left, q.left)
         right = self.isSameTree(p.right, q.right)
         return left and right
+        1
+    /
+    1
