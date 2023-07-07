@@ -1,4 +1,5 @@
 # Time: O(s * t)
+# Space: O(height of s)
 # tip: for every node in s, check if it's the same tree as t
 
 
